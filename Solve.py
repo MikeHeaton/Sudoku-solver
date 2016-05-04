@@ -2,6 +2,9 @@
 Written by Mike Heaton, 14/3/16.
 Solve.py
 
+Usage: from command line, run 
+> python solve.py sudokugrid.txt
+
 Solve.py: takes as a parameter a sudoku grid, and outputs the solved grid to the screen (along with some workings).
 The sudoku grid is a .txt file with the precise format:
 
