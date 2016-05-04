@@ -1,6 +1,10 @@
 # Sudoku-solver
 A little sudoku solver. The project in progress is to use it to judge how "difficult" a sudoku is, and to evolve THE HARDEST EVER SUDOKU.
 
+Included are solve.py, a program for solving a sudoku;
+sudokusearch.py, which uses a beam search with mutation to search the sudoku space looking for the hardest sudoku puzzle
+and a number of txt files containing example sudoku grids to try solve.py on. Of particular interest is "superhard2.txt", which is the hardest one I've found so far and beats the internet's standard "hardest sudoku ever" which is "superhard1.txt". But solve.py currently isn't equipped with the full sudoku solving toolkit, meaning it might not corresond to a truly more difficult puzzle.
+
 Files:
 ____________________solve.py____________________
 Takes as a parameter a sudoku grid, and returns the solved grid.
